@@ -1,0 +1,22 @@
+domination = 1
+teamdeathmatch = 2
+headquarters = 3
+
+def cod():
+    print("1domination")
+    print("2team deathmatch")
+    print("3headquarters")
+
+cod()
+
+option = int(input("enter a game mode 1, 2 or 3>>>"))
+
+if option == 1:
+    print("you have chosen domination")
+
+if option == 2:
+    print("team deathmatch selected")
+
+if option == 3:
+    print("back to headquaters") 
+
