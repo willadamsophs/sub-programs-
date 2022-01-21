@@ -1,0 +1,24 @@
+def mariokart():
+
+
+    print("single player")
+    print("two player")
+    print("online player")
+    print("exit")
+    
+    menu = int(input("please select a game mode>>>"))
+
+    if menu == 1:
+        print("single player")
+
+    if menu == 2:
+        print("two player")
+
+    if menu == 3:
+        print("online player")
+
+    if menu == 4:
+        print("exit")
+    
+
+mariokart()
