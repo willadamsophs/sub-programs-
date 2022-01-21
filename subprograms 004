@@ -1,0 +1,27 @@
+def minecraft():
+
+    print("1)survival")
+    print("2)creative")
+    print("3)hardcore")
+    print("4)adventure")
+    print("5)exit")
+
+minecraft()
+
+menu = int(input("please select an option>>>"))
+
+
+while menu > 6:
+    print("invalid choice")
+    
+
+if menu == 1:
+        print("you have selected survival")
+elif menu == 2:
+        print("you have selected creative")
+elif menu == 3:
+        print("you have selected hardcore")
+elif menu == 4:
+        print("you have selected adventure")
+elif menu == 5:
+        print("you have exited")
